@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="myscripts.js"></script>
+    </head>
+    <body>
+        <div class = "infobox">MON-FRI 10AM - 7PM | SAT 9AM - 6PM | SUN 11AM - 6PM</div>
+        <br><br>
+        <h1>P R O &nbspN A I L S&nbsp 3</h1>
+        <div class="choose2">N A I L S &nbsp|&nbsp W A X I N G &nbsp|&nbsp S P A</div>
+        <br>
+        <br>
+        <div class = "nav">
+            <a href="index.html">H O M E</a>
+            <a href="services.html">S E R V I C E S</a>
+            <a href="designs.html">D E S I G N S</a>
+            <a href="contact.html">C O N T A C T</a>
+            <a class ="active" href="book.html">B O O K</a>
+        </div>
+        <br><br>
+        <div class="bookingDiv">
+            <h2>B O O K&nbsp&nbspY O U R&nbsp&nbspA P P O I N T M E N T</h2>
+            <div class="choose2">W A L K - I N S&nbsp&nbspA V A I L A B L E</div>
+            <br><br>
+            <img class="centerImage" src="images\booking.png" width="150" height="150">
+            <br><br>
+            <div class="formDirection">Fill out the form to book an appointment or call us at (703) 560-7057. We will contact you via phone and email within 1-3 business days. Thank you!</div>
+            <br><br>
+            <form action ="actionpage.php">
+                <label for="fname">F I R S T&nbsp&nbspN A M E</label>
+                <input type="text" id="fname" name="firstname" placeholder="First name">
+
+                <label for="lname">L A S T&nbsp&nbspN A M E</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
+
+                <label for="phone">P H O N E&nbsp&nbspN U M B E R</label>
+                <input type="text" id="lname" name="phone" placeholder="9-digit phone number">
+
+                <label for="email">E M A I L</label>
+                <input type="text" id="lname" name="email" placeholder="janedoe@email.com">
+
+                <label for="country">S E R V I C E</label>
+                <select id="serviceType" name="serviceType">
+                    <option value="manicure">Essential Manicure - $18</option>
+                    <option value="manicure2">American Manicure - $23</option>
+                    <option value="manicure3">French Manicure - $23</option>
+                    <option value="manicure4">Ultimate Spa Manicure - $25</option>
+                    <option value="pedicure">Regular Pedicure - $32</option>
+                    <option value="pedicure2">Smooth Pedicure - $38</option>
+                    <option value="pedicure3">Ice Dancer Pedicure - $42</option>
+                    <option value="pedicure4">Deluxe Spa Pedicure - $54</option>
+                    <option value="pedicure5">Essential Oil Pedicure - $79</option>
+                    <option value="face wax">Facial Wax - starting at $12</option>
+                    <option value="body wax">Body Wax - starting at $20</option>
+                </select>
+
+                <label for="subject">A D D I T I O N A L&nbsp&nbspN O T E S</label>
+                <textarea id="subject" name="subject" placeholder="Additional notes, designs, etc..." style="height:120px"></textarea>
+
+            </form>
+            <button onclick="location.href='book.html'" id="bookingButton">S U B M I T</button>
+        </div>
+        <br>&nbsp
+        <footer>
+            <div><br> 
+                Pro Nails 3 • 9125 Langston Blvd, Fairfax, Va 22031 • (703) 560-7057<br><br><!-- comment -->
+                ♡ Developed and designed by Vivian Vu ♡ 
+            </div><!-- comment -->
+            <div>
+                &nbsp<br>
+            </div>
+        </footer>
+    </body>
+</html>
