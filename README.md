@@ -1,2 +1,3 @@
-# nailsalondemo
+# Nail Salon Website - Demo Project
+
 
