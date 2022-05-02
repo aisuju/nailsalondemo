@@ -5,69 +5,135 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
         <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="myscripts.js"></script>
     </head>
-    <body>
-        <div class="topnav">
-            <div class="topnav-right">
-                <a class="active" href="index.html">home</a>
-                <a href="portfolio.html">portfolio</a>
-                <a href="resume.html">resume</a>
-                <a href="contact.html">contact</a>
-            </div> 
-        </div>
-        <div class = "about">
-            <div class="row">
-                <div class ="columnA"><img src="vivianvu.jpg" alt="Person" height="375" style="border-radius: 50%;"></div>
-                <div class ="columnA">
-                    <div class="aboutme">
-                        <h1>VIVIAN VU</h1>
-                        <h2>Aspiring Technical Writer</h2>
-                        <br>
-                        <div class="paragraph">I'm a third-year student at VCU from Stafford, Virginia but now based in the DMV. I am majoring Interdisciplinary Studies with a focus in Technical Writing in Computer Science and Business Compositions.</div>
-                        <br>
-                        <div class="paragraph">On your first birthday in my culture, your parents give you a plate filled with different symbolic items. A stethoscope for doctor, a rosary for a nun, you get it. Whatever item you chose represented your future and I happened to a choose a pencil. And that pencil could mean a million different things, but for me, it marked the beginning of my passion for writing.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class = "links">
-            <div class ="row">
-                <div class ="columnB">
-                    <div class="container">
-                        <button onclick ="location.href='resume.html'" class="btn btn1">RESUME</button>
-                    </div>
-                </div>
-                <div class ="columnB">
-                    <div class="container">
-                        <button onclick ="location.href='portfolio.html'" class="btn btn2">PORTFOLIO</button>
-                    </div>
-                </div>
-                <div class ="columnB">
-                    <div class="container">
-                        <button onclick ="location.href='contact.html'" class="btn btn3">CONTACT</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="row">
-                <div class ="columnC"><strong>Phone</strong>
-                    <div class="paragraph">540-308-5706</div>
-                </div>
 
-                <div class ="columnC"><strong>Email</strong>
-                    <div class="paragraph">vuv2@vcu.edu</div>
+    <body>
+
+        <div class = "infobox">MON-FRI 10AM - 7PM | SAT 9AM - 6PM | SUN 11AM - 6PM</div>
+        <br>
+        <button onclick="window.location.href = 'book.html';" id="bookButton">B O O K &nbspN O W &nbsp⟶</button>
+        <br>
+        <h1>P R O &nbspN A I L S&nbsp 3</h1>
+        <div class="choose2">N A I L S &nbsp|&nbsp W A X I N G &nbsp|&nbsp S P A</div>
+        <br>
+        <br>
+        <div class = "nav">
+            <a class ="active" href ="#home">H O M E</a>
+            <a href="services.html">S E R V I C E S</a>
+            <a href="designs.html">D E S I G N S</a>
+            <a href="contact.html">C O N T A C T</a>
+            <a href="book.html">B O O K</a>
+        </div>
+
+        <br>
+
+        <div class = "container">
+            <img class="cover" src="images\leaves.jpg">
+            <div class = "centered">RELIEVE. REFRESH. REJUVENATE.
+                <br>
+                <div class = "book">
+                    <a href="book.html">|&nbsp&nbspB O O K&nbsp&nbsp&nbspN O W&nbsp&nbsp|</a>
                 </div>
-                <div class ="columnC"><strong>Socials</strong>
-                    <div class="paragraph">hi</div>
-                </div>
-                <div class ="columnC"><strong>Developed</strong>
-                    <div class="paragraph">by Vivian Vu 2022</div>
-                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="choose">Our Story</div>
+
+        <div class="story">
+            <p>For nearly two decades, Pro Nails 3 has been a dedicated family-owned local business that has provided the most quality and best services for all of our clients since 2002. 
+                We continue to strive to maintain the best facilities including: nail care, body care, and cleanliness. Our employees are made up of hard working immigrant families who have taken all measures to provide you with the best comfort and care possible.
+            </p>
+            <p>* &nbsp*&nbsp *</p>
+            <p>During this pandemic, we have taken the most precautions requiring all employees and guests to wear a face mask and wash their hands. The facility is
+                cleaned multiple times a day and handled with care. We are committed to maintaining cleanliness while still supplying services to our customers during COVID-19.
+            </p><!-- comment -->
+            <p>* &nbsp*&nbsp *</p>
+            <p>The products we use are carefully selected with the utmost intention of providing the best quality and premium products to our customers. Each product is cruelty free and
+                personally tested. With that being said, we would love if you could join our family as we are always making our best efforts to provide customer satisfaction and a way to make
+                our customers feel their best. <strong>Please come book with us at PRO NAILS 3!</strong>
+        </div>
+
+        <div class="choose">Choose</div>
+        <div class="choose2">F R O M &nbspO U R &nbspV A R I O U S &nbspS E R V I C E S &nbspB E L O W:</div>
+
+        <br><br>
+
+        <div class="row">
+            <div class="column">&nbsp&nbsp</div>
+            <div class="column">
+                <div class ="mainbuttons">
+                    <a href="services.html">|&nbsp&nbspM A N I / P E D I&nbsp&nbsp|</a>
+                </div><br>
+                <img class="cover2" src="images\col1.jpg"></div>
+            <div class="column"><div class ="mainbuttons">
+                    <a href="services.html?id=waxing">|&nbsp&nbspW A X I N G&nbsp&nbsp|</a><br><br>
+                </div><img class="cover2" src="images\col2.jpg"></div>
+            <div class="column">
+                <div class ="mainbuttons">
+                    <a href="designs.html">|&nbsp&nbspD E S I G N S&nbsp&nbsp|</a><br><br>
+                </div><img class="cover2" src="images\col3.jpg"></div>
+            <div class="column">&nbsp&nbsp</div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class ="column">&nbsp&nbsp</div>
+            <div class ="column">H O U R S</div>
+            <div class ="column">L O C A T I O N</div>
+            <div class ="column">C O N T A C T</div>
+            <div class ="column">&nbsp&nbsp</div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class ="column2">&nbsp&nbsp</div>
+            <div class ="column2">
+                <table style =" width:130%">
+                    <tr>
+                        <td>Weekdays</td>
+                        <td>10:00AM - 7:00PM</td>
+                    </tr>
+                    <td>Saturday</td>
+                    <td>9:00AM - 6:00PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>11:00AM - 6:00PM</td>
+                    </tr>
+                </table>
+            </div>
+            <div class ="column2">
+                9125 Langston Blvd<br>
+                Fairfax, VA 22031<br><br>
+                Pan Am Shopping Center<br>
+                Located Next to Domino's<br>
+            </div>
+            <div class ="column2">
+                Phone - (703) 560-7057<br><br>
+                Facebook - Pro Nails 3
+            </div>
+            <div class ="column2">&nbsp&nbsp</div>
+        </div><!-- comment -->
+        <br><br><br>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑ &nbsp&nbsp&nbsp&nbspB A C K&nbsp T O&nbsp T O P &nbsp&nbsp&nbsp&nbsp↑</button>
+
+        <br> &nbsp
+        <footer>
+            <div><br> 
+                Pro Nails 3 • 9125 Langston Blvd, Fairfax, Va 22031 • (703) 560-7057<br><br><!-- comment -->
+                Developed and designed by Vivian Vu ♡ 
+            </div><!-- comment -->
+            <div>
+                &nbsp<br>
             </div>
         </footer>
     </body>
