@@ -3,423 +3,273 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
 */
 /* 
-    Created on : Feb 10, 2022, 1:52:34 AM
+    Created on : Apr 29, 2022, 5:53:19 AM
     Author     : Vivi
 */
+body {
+    background-color: #d4c8b4;
+    margin: 0;
+}
 h1 {
-    text-align:center;
-    font-family: garamond;
-    color: #0a1702;
+    font-size: 70px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
 }
 h2 {
-    text-align: center;
-    font-family: georgia;
-    color: #0a1702;
-    text-decoration: bold;
-}
-html, body {
-    height: 100%;
-    margin: 0;
-    background-color: #e6e2d3;
-}
-.cover {
-    position: relative;
-    width: 100%;
-    height: 800px;
-}
-.container {
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-family: Georgia;
-    color: rgba(234,240,246,0.8);
-    font-size: 300%;
-    text-decoration: none;
-}
-.book{
-    border: 1px white;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    font-family: Georgia;
-}
-.book li{
-    display:inline;
-}
-.book a{
-    display:inline-block;
-    padding:10px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    background-color: #15261a;
-}
-.book a:hover {
-    background-color: #648f51;
-    color: white;
-}
-.book a.active {
-    background-color: #648f51;
-    color: white;
-}
-.infobox {
-    background-color: #648f51;
-    border: 10px solid #648f51;
-    border-width:7px #648f51;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:left;
-    color: white;
-    font-family: Garamond;
-    font-weight: none;
-}
-.infobox li {
-    display:inline;
-}
-.infobox a {
-    display:inline-block;
-    padding:5px;
-    color: white;
-    text-decoration: none;
-    font-size: 5px;
-}
-.nav{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    font-family: Georgia;
-}
-.nav li{
-    display:inline;
-}
-.nav a{
-    display:inline-block;
-    padding:10px;
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-}
-.nav a:hover {
-    background-color: #648f51;
-    color: white;
-}
-.nav a.active {
-    background-color: #648f51;
-    color: white;
-}
-.column {
-    float: left;
-    width: 20%;
-    text-align: center;
-    font-family: Georgia;
+    font-size: 22px;
+    color: #1f1b1b;
+    letter-spacing: 2px;
+    font-family: trebuchet ms;
     font-weight: bold;
-    font-size: 150%;
 }
-.column2 {
+h6 {
+    font-size: 28px;
+    color: #1f1b1b;
+    letter-spacing: 2px;
+    font-family: trebuchet ms;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 50px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+h5 {
+    margin-top: 0;
+    font-size: 50px;
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1%;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav a {
     float: left;
-    width: 20%;
+    color: #1f1b1b;
     text-align: center;
-    font-family: garamond;
-    font-size: 100%;
-    line-height: 1.5;
+    padding: 26px 20px;
+    font-family: trebuchet ms;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
-.column3 {
+.topnav a:hover {
+    color: #a89051;
+}
+.topnav a.active {
+    color: #a89051;
+}
+.topnav-right {
+    margin-right: 5%;
+    float: right;
+}
+.about {
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.columnA{
     float: left;
-    width: 20%;
+    width: 50%;
 }
 @media screen and (max-width:600px) {
-    .column {
+    .columnA {
         width:100%;
     }
-}
-@media screen and (max-width:600px) {
-    .column2 {
-        width:100%;
-    }
-}
-@media screen and (max-width:600px) {
-    .column3 {
-        width:100%;
-    }
-}
-.backgr {
-    background-color: green;
-    text-align: center;
-    font-family: garamond;
-    font-size: 300%;
-}
-.cover2 {
-    width:98%;
-    height:350px;
-    text-align: center;
 }
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-table, th, td {
-    border: 0px;
-    margin-left: -40px;
-    font-family: garamond;
+.aboutme {
+    margin-top: 10%;
 }
-.hey {
-    margin: 20%;
-    background-color: blue;
+.paragraph {
+    color: #1f1b1b;
+    margin-right: 10%;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+}
+ul {
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+}
+.links {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+.columnB {
     float: left;
-    width: 20%;
+    width: 33%;
 }
-.mainbuttons{
-    border: 1px white;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    font-family: Georgia;
+@media screen and (max-width:600px) {
+    .columnB {
+        width:100%;
+    }
 }
-.mainbuttons li{
-    display:inline;
+.container {
+    margin-top: 40%;
+    margin-bottom: 40%;
 }
-.mainbuttons a{
-    display:inline-block;
-    padding:10px;
+.btn {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 75px;
+    outline: none;
     color: white;
-    text-decoration: none;
-    font-size: 20px;
-    background-color: #415e49;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
-.mainbuttons a:hover {
-    background-color: #648f51;
-    color: white;
+.btn1{
+    background: #947859;
 }
-.mainbuttons a.active {
-    background-color: #648f51;
-    color: white;
+.btn2{
+    background: #b59e7f;
+}
+.btn3{
+    background: #4a4137;
+}
+.btn:hover {
+    color: #292624;
+    background: #9e958b;
+}
+.columnC {
+    float: left;
+    width: 25%;
+}
+@media screen and (max-width:600px) {
+    .columnC {
+        width:100%;
+    }
 }
 footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #648f51;
+    background-color: white;
+    color: #1f1b1b;
+    padding: 40px 40px;
+    font-family: trebuchet ms;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.download {
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    background-color: #947859;
     color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 3%;
+}
+.download:hover {
+    color: #292624;
+    background: #9e958b;
+}
+.centered {
     text-align: center;
 }
-.choose {
-    text-align: center;
-    font-size: 400%;
-    font-family: brush script mt;
-    text-decoration: bold;
-    color: #031f0b
-}
-.choose2 {
-    text-align: center;
-    font-size: 80%;
-    font-family: verdana;
-    color: black;
-}
-.story {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    font-size: 14pt;
-    font-family: garamond;
-    color: #0c2e15;
-    line-height: 1.5;
-}
-.smargin {
+.section {
     margin-left: 20%;
     margin-right: 20%;
 }
-.service {
-    font-family: g;
+p {
+    color: #1f1b1b;
+    font-family: trebuchet ms;
+    font-size: 15px;
+    line-height: 2;
+    text-decoration: none;
 }
-.scol {
+.columnG {
     float: left;
-    width: 20%;
+    width: 33%;
 }
-.scol2 {
+.columnG2 {
+    text-align: right;
+}
+@media screen and (max-width:600px) {
+    .columnG {
+        width:100%;
+    }
+}
+.talk {
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-family: trebuchet ms;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    margin: 10px;
+}
+.talk:hover {
+    color: #292624;
+    background: #f2e4b8;
+}
+.talk2 {
+        background-color: #b0a37b;
+}
+.talk3 {
+        background-color: #47370a;
+}
+.talk4 {
+        background-color: #6b603f;
+}
+.columnZ {
     float: left;
-    width: 40%;
+    width: 33%;
+}
+@media screen and (max-width:600px) {
+    .columnZ {
+        width:100%;
+    }
+}
+.portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 .alightleft {
     margin-left:10%;
     float: left;
+    text-decoration: none;
 }
 .alignright {
     margin-right:10%;
     float: right;
+    text-align:right;
 }
-h5 {
-    font-family: garamond;
-    font-size: 16pt;
-    text-align: left;
-}
-.hi {
-    margin-right:10%;
-    margin-left:10%;
-    font-family: garamond;
-    font-size: 16pt;
-    text-align: left;
-    color: #0a1702;
-
-}
-.hi2 {
-    margin-left:10%;
-    margin-right:10%;
-    font-family: garamond;
-    font-size: 16pt;
-    text-align: left;
-    color: #0a1702;
-}
-h4 {
-    font-size: 24pt;
-    text-align: center;
-    color: #0a1702;
-}
-@media screen and (max-width:600px) {
-    .scol {
-        width:100%;
-    }
-}
-@media screen and (max-width:600px) {
-    .scol2 {
-        width:100%;
-    }
-}
-#myBtn {
-    width: 100%;
-    border: none;
-    outline: none;
-    background-color: #15261a;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 18px;
-    font-family: georgia;
-}
-#myBtn:hover {
-    background-color:#7ba686;
-    color: black;
-}
-
-#bookButton {
-    position: fixed;
-    right: 0px;
-    border: none;
-    outline: none;
-    background-color: #15261a;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 18px;
-    font-family: georgia;
-}
-#bookButton:hover {
-    background-color:#7ba686;
-    color: black;
-}
-#bookingButton:hover {
-    background-color:#7ba686;
-    color: black;
-}
-#bookingButton {
-    border: none;
-    outline: none;
-    background-color: #15261a;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    font-size: 18px;
-    font-family: georgia;
-}
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-.formDirection {
-    font-family: verdana;
-    font-size: 10pt;
-    text-align: center;
-}
-.centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.bookingDiv {
-    border-style: solid;
-    border: 2pt solid;
-    padding: 85px;
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: verdana;
-    font-size: 10pt;
-}
-.contactColumn {
-    float: left;
-    width: 20%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.contactContainer {
-    padding: 0 16px;
-}
-
-.contactContainer::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.contactTitle {
-    color: grey;
-}
-
-.callButton {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-
-.callButton:hover {
-    background-color: #555;
-}
-
-* {
-    box-sizing: border-box;
-}
-@media screen and (max-width:600px) {
-    .bookingDiv {
-        width:100%;
-    }
-}
-
-
