@@ -72,7 +72,7 @@ html, body {
 .infobox {
     background-color: #648f51;
     border: 10px solid #648f51;
-    border-width:7px #648f51;
+    border-width:7px;
     list-style:none;
     margin:0;
     padding:0;
@@ -92,7 +92,6 @@ html, body {
     font-size: 5px;
 }
 .nav{
-    border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -265,6 +264,11 @@ h5 {
     font-size: 16pt;
     text-align: left;
 }
+h6 {
+    font-family: garamond;
+    font-size: 14pt;
+    text-align: center;
+}
 .hi {
     margin-right:10%;
     margin-left:10%;
@@ -419,7 +423,11 @@ input[type=text], select, textarea {
 @media screen and (max-width:600px) {
     .bookingDiv {
         width:100%;
+        margin: 0%;
     }
+}
+.skip {
+    background-color: green;
 }
 
 
